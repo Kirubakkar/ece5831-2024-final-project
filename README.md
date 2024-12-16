@@ -40,11 +40,11 @@ This will return the prediction as a floating point number between 0 and 1. If t
 
 Please follow the below links for more details and for the resources used in this project.
 
-1. [Presentation](https://www.youtube.com/)
-2. [Presentation slides](https://drive.google.com/drive/folders/1qkOowiAIAxT5FCGa9zPCnAdUYZLIaSvf?usp=drive_link)
+1. [Presentation](https://www.youtube.com/watch?v=G9DUm_p-zos)
+2. [Presentation slides](https://docs.google.com/presentation/d/1slZPziaAh-ClIcU2DI9gq9FUV0b1Zp6H/edit?usp=sharing&ouid=105783448609250797211&rtpof=true&sd=true)
 3. [Report](https://drive.google.com/drive/folders/1EY1eXZzhzGRZ3hmWlTA-qHdtICuhy4Rm?usp=drive_link)
-4. [Dataset](https://drive.google.com/drive/folders/1jbgUeYK5d7jNre56BXjcqfuunMPHeVR2?usp=drive_link)
-5. [Demo](https://www.youtube.com/)
+4. [Dataset](https://drive.google.com/drive/folders/1I-1d5ZnF5wiyCpDoXDMQk1nEOzDikoR7?usp=sharing)
+5. [Demo](https://youtu.be/4zbAskyfsFI)
 
 ## Credits
 
