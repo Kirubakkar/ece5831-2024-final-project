@@ -1,12 +1,12 @@
 import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.models import load_model 
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from sklearn.metrics import classification_report, f1_score
+from tensorflow.keras import layers, models # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
+from sklearn.metrics import classification_report, f1_score # type: ignore
+from tensorflow.keras.preprocessing.image import load_img, img_to_array # type: ignore
 import matplotlib.pyplot as plt
 import os
 import numpy as np
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 class ImageAuthenticityClassifier:
     def __init__(self, img_height=128, img_width=128, batch_size=32, epochs=20):
@@ -70,8 +70,8 @@ class ImageAuthenticityClassifier:
             layers.Dense(1, activation='sigmoid')
         ])
         self.model.compile(optimizer='adam',
-                           loss='binary_crossentropy',
-                           metrics=['accuracy'])
+                            loss='binary_crossentropy',
+                            metrics=['accuracy'])
         print(self.model.summary())
 
     def train(self):
@@ -136,7 +136,7 @@ class ImageAuthenticityClassifier:
         report = classification_report(y_true, y_pred, target_names=list(self.test_generator.class_indices.keys()))
         print("\nClassification Report:\n", report)
 
-    def predict_image(self, image_path):
+    def predict_image(self,image_path):
         """
         Preprocess an input image and predict its class using the trained model.
         :param image_path: Path to the input image.
